@@ -3,17 +3,21 @@
     color: #696969;
 
     font-family: 'Roboto Mono';
-    font-weight: bold;
 }
 
 a{ text-decoration: none; }
 
 .Page-Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
     line-height: 25px;
     text-align: center;
+    align-items: center;
 }
 
-img{
+.Page-Header img{
     max-width: 200px;
 }
 
@@ -41,14 +45,20 @@ h3{
 }
 
 .Recipe-Title{
+    margin-top: 100px;
     text-align: center;
+}
+.Recipe-Title img{
+    max-width: 350px;
 }
 
 .Recipe-Content{
-    text-align: justify;
-    max-width: 750px;
-    justify-content: center;
-    align-items: center;
     display: flex;
     flex-direction: column;
+
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    
+    max-width: 750px;
 }
