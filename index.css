@@ -5,6 +5,7 @@
     font-family: 'Roboto Mono';
     font-weight: bold;
 }
+
 a{ text-decoration: none; }
 
 .Page-Header{
@@ -16,13 +17,38 @@ img{
     max-width: 200px;
 }
 
-h1{
+.Page-Header h1{
     font-size: xxx-large;
 }
 
-.Menu{
-    text-align: center;
-    margin-top: 100px;
+
+h3{
+    text-decoration: underline;
+}
+
+.Page-Content{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+
+.Menu{
+    margin-top: 100px;
     line-height: 75px;
+    text-align: center;
+}
+
+.Recipe-Title{
+    text-align: center;
+}
+
+.Recipe-Content{
+    text-align: justify;
+    max-width: 750px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
