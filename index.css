@@ -8,12 +8,16 @@
 a{ text-decoration: none; }
 
 .Page-Header{
-    line-height: 50px;
+    line-height: 25px;
     text-align: center;
 }
 
 img{
     max-width: 200px;
+}
+
+h1{
+    font-size: xxx-large;
 }
 
 .Menu{
